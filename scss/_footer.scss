@@ -1,0 +1,33 @@
+.footer{
+    width: 100%;
+    padding: 20px 100px 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--fon);
+    align-items: center;
+    .footer-left{
+        display: flex;
+        gap: 50px;
+        .footer-item{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            h3{
+                color: white;
+            }
+            p{
+                color: rgba(255, 255, 255, 0.599);
+                font-weight: 100;
+            }
+        }
+    }
+    .btn-bottom{
+        button{
+            padding: 5px 30px;
+            border-radius: 50px;
+            color: white;
+            background-color: blue;
+            cursor: pointer;
+        }
+    }
+}
