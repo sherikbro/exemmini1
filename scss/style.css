@@ -99,6 +99,9 @@ nav .nav-right .search input::placeholder {
 nav .nav-right .nav-user i, nav .nav-right .nav-bar i {
   color: white;
   font-size: 22px;
+  background-color: rgba(244, 251, 255, 0.1019607843);
+  padding: 10px 14px;
+  border-radius: 50px;
 }
 
 main {
@@ -114,7 +117,7 @@ main .hero {
 }
 main .hero .hero-left {
   position: absolute;
-  top: 45%;
+  top: 40%;
   left: 100px;
   display: flex;
   justify-content: space-between;
@@ -127,7 +130,7 @@ main .hero .hero-left i {
 }
 main .hero .hero-right {
   position: absolute;
-  top: 45%;
+  top: 40%;
   right: 100px;
   display: flex;
   justify-content: space-between;
