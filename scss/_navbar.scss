@@ -3,22 +3,21 @@
 }
 nav{
     width: 100%;
-    height: 140px;
+    height: 100px;
     padding: 0 100px;
     // background-color: darkblue;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: var(--fon);
-    
     .nav-right{
         display: flex;
-        gap: 100px;
+        gap: 40px;
         align-items: center;
         align-content: center;
         ul{
             display: flex;
-            gap: 20px;
+            gap: 10px;
             align-items: center;
             li{
                 align-items: center;
@@ -29,6 +28,11 @@ nav{
                     transition: 0.6s;
                     border: none;
                     text-decoration: none;
+                    white-space: nowrap;
+                    border: 2px solid transparent;
+                    &:focus{
+                        box-shadow: 1px 1px 10px white;
+                    }
                 }
                 .tblue{
                     &:hover{
@@ -87,7 +91,7 @@ nav{
         .nav-user, .nav-bar{
             i{
                 color: white;
-                font-size: 22px;
+                font-size: 20px;
                 background-color: #F4FBFF1A;
                 padding: 10px 14px;
                 border-radius: 50px;

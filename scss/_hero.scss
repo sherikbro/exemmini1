@@ -6,67 +6,50 @@ main{
         padding: 50px 100px;
         background-color: var(--fon);
         align-items: center;
+        align-content: center;
         position: relative;
         .hero-left{
             position: absolute;
-            top: 40%;
+            top: 45%;
             left: 100px;
             // width: calc(100%-100px);
             // padding: 0 50px;
             display: flex;
             justify-content: space-between;
             i{
-                font-size: 26px;
+                font-size: 22px;
                 padding: 12px 15px;
                 border-radius: 50%;
-                    background-color: #F4FBFF1A;
+                background-color: #F4FBFF1A;
+                color: lightgrey;
             }
         }
         .hero-right{
             position: absolute;
-            top: 40%;
+            top: 45%;
             right: 100px;
             // width: calc(100%-100px);
             // padding: 0 50px;
             display: flex;
             justify-content: space-between;
             i{
-                font-size: 26px;
+                font-size: 22px;
                 padding: 12px 15px;
                 border-radius: 50%;
-                    background-color: #F4FBFF1A;
+                background-color: #F4FBFF1A;
+                color: lightgrey;
             }
         }
         .hero-img{
             width: 60%;
             height: 100%;
             margin: 0 auto;
-            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
             img{
                 width: 100%;
             }
-            // background-image: url(../images/model3.png);
-            // background-size: cover;
-            // background-position: center;
         }
-        // .carusel{
-        //     width: 100%;
-        //     margin: 0 auto;
-        //     display: flex;
-        //     justify-content: center;
-        //     align-items: center;
-        //     .carouselExampleAutoplaying{
-        //         width: 100%;
-        //         .carousel-inner{
-        //             width: 100%;
-        //             .carousel-item{
-        //                 width: 100%;
-        //                 img{
-        //                     width: 100%;
-        //                 }
-        //             }
-        //         }
-        //     }
-        // }
     }
 }

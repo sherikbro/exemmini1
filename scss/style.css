@@ -21,7 +21,7 @@
 
 nav {
   width: 100%;
-  height: 140px;
+  height: 100px;
   padding: 0 100px;
   display: flex;
   justify-content: space-between;
@@ -30,13 +30,13 @@ nav {
 }
 nav .nav-right {
   display: flex;
-  gap: 100px;
+  gap: 40px;
   align-items: center;
   align-content: center;
 }
 nav .nav-right ul {
   display: flex;
-  gap: 20px;
+  gap: 10px;
   align-items: center;
 }
 nav .nav-right ul li {
@@ -49,6 +49,11 @@ nav .nav-right ul li a {
   transition: 0.6s;
   border: none;
   text-decoration: none;
+  white-space: nowrap;
+  border: 2px solid transparent;
+}
+nav .nav-right ul li a:focus {
+  box-shadow: 1px 1px 10px white;
 }
 nav .nav-right ul li .tblue:hover {
   color: blue;
@@ -98,7 +103,7 @@ nav .nav-right .search input::placeholder {
 }
 nav .nav-right .nav-user i, nav .nav-right .nav-bar i {
   color: white;
-  font-size: 22px;
+  font-size: 20px;
   background-color: rgba(244, 251, 255, 0.1019607843);
   padding: 10px 14px;
   border-radius: 50px;
@@ -113,39 +118,44 @@ main .hero {
   padding: 50px 100px;
   background-color: var(--fon);
   align-items: center;
+  align-content: center;
   position: relative;
 }
 main .hero .hero-left {
   position: absolute;
-  top: 40%;
+  top: 45%;
   left: 100px;
   display: flex;
   justify-content: space-between;
 }
 main .hero .hero-left i {
-  font-size: 26px;
+  font-size: 22px;
   padding: 12px 15px;
   border-radius: 50%;
   background-color: rgba(244, 251, 255, 0.1019607843);
+  color: lightgrey;
 }
 main .hero .hero-right {
   position: absolute;
-  top: 40%;
+  top: 45%;
   right: 100px;
   display: flex;
   justify-content: space-between;
 }
 main .hero .hero-right i {
-  font-size: 26px;
+  font-size: 22px;
   padding: 12px 15px;
   border-radius: 50%;
   background-color: rgba(244, 251, 255, 0.1019607843);
+  color: lightgrey;
 }
 main .hero .hero-img {
   width: 60%;
   height: 100%;
   margin: 0 auto;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 main .hero .hero-img img {
   width: 100%;
@@ -176,9 +186,10 @@ main .hero .hero-img img {
   font-weight: 100;
 }
 .footer .btn-bottom button {
-  padding: 5px 30px;
+  padding: 10px 30px;
   border-radius: 50px;
+  border: none;
   color: white;
-  background-color: blue;
+  background-color: #0081FF;
   cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
